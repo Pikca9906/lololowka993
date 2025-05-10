@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+
+}
+
+h1 {
+ color: rgb(255, 255, 255);
+ background-color: black;
+ text-align: center;
+ 
+}
+ h2 {
+ color: black;
+ background-color: rgb(136, 136, 136);
+text-align: center;
+
+ }
+ main{
+ 
+background-color: rgb(221, 221, 221);
+
+ }
+ 
+ ol{
+  width: 50%;
+  
+    background-image: linear-gradient(to bottom, rgb(206, 93, 93) ,   black );
+  /* обрезаем фон по тексту */
+  -webkit-background-clip: text;
+  /* меняет цвет текста заголовка на прозрачный что бы можно было увидеть градиент*/
+  -webkit-text-fill-color: transparent;
+  font-size: 12px;
+  text-align: left;
+
+
+ }
+header{
+ background-color: black;
+
+height: 100px;
+}
+ 
+ header h2{
+color: black;
+ background-color: rgb(136, 136, 136);
+text-align: center;
+height: 60px;
+ } 
+.lox{
+display: inline-block;
+width: 25%;
+flex-wrap: wrap;
+ }
+ div{
+  display: flex;
+ }
+ footer{
+display: flex;
+justify-content: space-between;
+  background-color: black;
+ 
+ }
+footer img{
+  height: 100%;
+}
