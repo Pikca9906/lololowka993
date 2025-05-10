@@ -15,11 +15,11 @@ h1 {
  text-align: center; 
 }
  h2 {
-margin:15px;
 сolor: black;
 background-color: rgb(136, 136, 136);
 text-align: center;
 height: 60px;
+width:100%;     
 
  }
  main{
